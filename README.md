@@ -20,23 +20,25 @@ This project implements a comprehensive forecasting system using ensemble machin
 - **Approach**: Ensemble stacking with advanced feature engineering
 
 ## 📁 Project Structure
-sticker-sales-forecasting/
-│
-├── data/                     # Data directory
-│   ├── train.csv             # Training dataset
-│   ├── test.csv              # Test dataset
-│   └── sample_submission.csv # Submission format
-│
-├── notebooks/                # Jupyter notebooks
-│   ├── 01_data_exploration.ipynb   # Data analysis and EDA
-│   ├── 02_feature_engineering.ipynb # Feature creation
-│   └── 03_model_training.ipynb     # Model development
-│
-├── models/                   # Trained models
-│   └── stacking_model.joblib # Final ensemble model
-│
-├── app/                      # Streamlit application
-│   └── streamlit_app.py      # Web application
-│
-├── requirements.txt          # Python dependencies
-└── README.md                 # Project documentation
+```
+    sticker-sales-forecasting/
+    │
+    ├── data/                     # Data directory
+    │   ├── train.csv             # Training dataset
+    │   ├── test.csv              # Test dataset
+    │   └── sample_submission.csv # Submission format
+    │
+    ├── notebooks/                # Jupyter notebooks
+    │   ├── 01_data_exploration.ipynb   # Data analysis and EDA
+    │   ├── 02_feature_engineering.ipynb # Feature creation
+    │   └── 03_model_training.ipynb     # Model development
+    │
+    ├── models/                   # Trained models
+    │   └── stacking_model.joblib # Final ensemble model
+    │
+    ├── app/                      # Streamlit application
+    │   └── streamlit_app.py      # Web application
+    │
+    ├── requirements.txt          # Python dependencies
+    └── README.md                 # Project documentation
+```
